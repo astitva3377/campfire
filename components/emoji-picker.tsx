@@ -14,7 +14,6 @@ export const EmojiPicker = ({
 	onChange
 }: EmojiPickerProps) => {
 	const { resolvedTheme } = useTheme();
-	console.log(resolvedTheme);
 	return (
 		<Popover>
 			<PopoverTrigger>
